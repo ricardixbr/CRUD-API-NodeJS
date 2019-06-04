@@ -11,7 +11,7 @@
 ## Some codes for docker
 
 ### Get image
-$ docker pull mongo
+> $ docker pull mongo
 
 ### Create container
 > $ docker run --name *name-image* -p 27017:27017 -d *name-container*
