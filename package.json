@@ -1,7 +1,7 @@
 {
   "name": "head-cobranca",
   "version": "1.0.0",
-  "description": "Aplicação para controle de cobranças\",
+  "description": "Aplicação para controle de cobranças",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,8 @@
     "url": "github.com:ricardixbr/Head-Cobranca.git"
   },
   "author": "Ricardo Reis",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
