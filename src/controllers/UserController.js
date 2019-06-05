@@ -7,4 +7,10 @@ module.exports = {
 
         return res.json(users);
     },
+
+    async store(req, res){
+        const user = await User.create(req.body);
+
+        return res.json(user);
+    },
 }
