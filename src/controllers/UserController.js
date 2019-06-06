@@ -26,5 +26,9 @@ module.exports = {
         return res.json(user);
     },
 
-    async destroy(req, res){},
+    async destroy(req, res){
+        await User.findByIdAndRemove(req.params.id);
+
+        return res.send(`Registro ${req.params.id} deletado com sucesso`)
+    },
 }
